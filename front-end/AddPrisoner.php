@@ -39,8 +39,13 @@
                                         <tr>
                                             <td>Prison :</td>
                                             <td>
-                                                <input type="text" name="first_name"
-                                                       style="width:250px; border:2px solid ;"/></td>
+                                                <select>
+                                                    <option value="prison1">1</option>
+                                                    <option value="prison2">2</option>
+                                                    <option value="prison3">3</option>
+                                                    <option value="prison4">4</option>
+                                                    <option value="prison5">5</option>
+                                                </select>
                                         </tr>
                                         <tr>
                                             <td colspan="2" style="height:10px"></td>
