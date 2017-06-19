@@ -25,34 +25,47 @@
 
 
                     <div class = "prisoner" align="center" >
-                        <table width="850" ; border="0";  align="center" ; cellpadding="0";>
+                        <table width="398" ; border="0";  align="center" ; cellpadding="0";>
 
                             <tr>
-                                <th align="left">Prison ID</th>
-                                <th align="left">Prisoner ID</th>
-                                <th align="left">Prison CNP</th>
-                                <th align="left">First Name</th>
-                                <th align="left">Middle Name</th>
-                                <th align="left">Last Name</th>
-                                <th align="left">Prisoner Birth date</th>
-                                <th align="left">Prisoner Entry Date</th>
-                                <th align="left">Prisoner Release Date</th>
-                                <th align="left">Prisoner Probation</th>
+                                <td width="90" valign="center"><div align="left">Cnp</div></td>
+                                <td width="165" valign="center">2300985854</td>
+                                <td width="120" rowspan="10" valign="right"><img src="p1.jpg" class = "image_prisoner" /></td>
                             </tr>
                             <tr>
-                                <td>1</td>
-                                <td>41</td>
-                                <td>1962203123341</td>
-                                <td>gigi</td>
-                                <td>emil</td>
-                                <td>ovidiu</td>
-                                <td>22/03/1998</td>
-                                <td>22/03/1998</td>
-                                <td>22/03/1998</td>
-                                <td>0</td>
-
-
+                                <td width="90" valign="center"><div align="left">Prison Id</div></td>
+                                <td width="165" valign="center">1</td>
                             </tr>
+                            <tr>
+                                <td width="90" align="left"><div align="left">First Name</div></td>
+                                <td width="165" valign="center">Numele</td>
+                            </tr>
+                            <tr>
+                                <td width="90" valign="left"><div align="left">Middle Name</div></td>
+                                <td width="165" valign="center">Primului</td>
+                            </tr>
+                            <tr>
+                                <td width="90" valign="left"><div align="left">Last Name</div></td>
+                                <td width="165" valign="center">Detinut</td>
+                            </tr>
+                            <tr>
+                                <td width="90" valign="left"><div align="left">Birth Date</div></td>
+                                <td width="165" valign="center">30.09.98</td>
+                            </tr>
+                            <tr>
+                                <td width="90" valign="left"><div align="left">Entry Date</div></td>
+                                <td width="165" valign="center">30.09.13</td>
+                            </tr>
+                            <tr>
+                                <td width="90" valign="left"><div align="left">Out Date</div></td>
+                                <td width="165" valign="center">30.09.17</td>
+                            </tr>
+                            <tr>
+                                <td width="90" valign="left"><div align="left">Probation</div></td>
+                                <td width="165" valign="center">0</td>
+                            </tr>
+                            <td>Lista visite</td>
+
                         </table>
 
 
