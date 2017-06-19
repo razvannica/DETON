@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>D E T O N</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/icon.png"/>
     <link rel="stylesheet" href="../css/style.css" type="text/css"/>
 </head>
 <body>
@@ -39,6 +39,8 @@
                                 <td>emil</td>
                                 <td>ovidiu</td>
                                 <td><button type="button"><a href="PrisonerDetails.php"> Prisoner Details</a></button></td>
+                                <td><button type="button"><a href="EditPrisoner.php"> Edit Prisoner</a></button></td>
+                                <td><button type="button">Delete Prisoner</button></td>
 
                             </tr>
                         </table>
@@ -59,15 +61,22 @@
                         <br>
                         <h3 class="widgettitle">Filters</h3>
                         <form action="">
-                            <input type="checkbox" name="gender" value="Male">He is male<br>
-                            <input type="checkbox" name="gender" value="female">She is female<br>
-                            <input type="checkbox" name="prison" value="Id">Prison id 1.<br>
-                            <input type="checkbox" name="prison" value="Id">Prison id 2.<br>
-                            <input type="checkbox" name="prison" value="Id">Prison id 3.<br>
-                            <input type="checkbox" name="prison" value="Id">Prison id 4.<br>
-                            <input type="checkbox" name="prison" value="Id">Prison id 5.<br>
-                            <input type="checkbox" name="visit" value="Yes/No">Prisoners that have had visits.<br>
-                            <input type="checkbox" name="visit" value="Yes/No">Prisoners that will have visits.<br>
+                            Gender:
+                            <br>
+                            <input type="radio" name="gender" value="Male">He is male<br>
+                            <input type="radio" name="gender" value="Female">She is female<br>
+                            Prison:
+                            <br>
+                            <input type="radio" name="prison" value="Id">Prison ID 1.<br>
+                            <input type="radio" name="prison" value="Id">Prison ID 2.<br>
+                            <input type="radio" name="prison" value="Id">Prison ID 3.<br>
+                            <input type="radio" name="prison" value="Id">Prison ID 4.<br>
+                            <input type="radio" name="prison" value="Id">Prison ID 5.<br>
+                            Visit Status:
+                            <br>
+                            <input type="radio" name="visit" value="Yes/No">Prisoners that have had visits.<br>
+                            <input type="radio" name="visit" value="Yes/No">Prisoners that will have visits.<br>
+                        </form>
                     </div>
                 </aside>
                 <!-- end of sidebar -->
@@ -84,23 +93,4 @@
 </div>
 <!-- end of wrapper -->
 </body>
-</html>
-                    <!-- end of post -->
-                </section>
-                <!-- end of content -->
-                <!-- sidebar -->
-
-
-                <!-- end of sidebar -->
-                <div class="cl">&nbsp;</div>
-            </div>
-            <!-- end of main -->
-
-        </div>
-        <!-- end of shell -->
-    </div>
-    <?php require('footer.php'); ?>
-</div>
-<!-- end of wrapper -->
-</body>
-</html>
+</html
