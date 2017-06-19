@@ -43,7 +43,7 @@
                                             <td>Prenume_detinut</td>
                                             <td><button type="button"><a  href="VisitDetails.php">Details</a></button></td>
                                             <td><button type="button"><a href="EditVisit.php">Edit Visit</a></button></td>
-                                            <td><button type="button"><a href="DeleteVisit.php">Delete Visit</a></button></td>
+                                            <td><button type="button">Delete Visit</button></td>
                                         </tr>
 
                                         <br><br>
