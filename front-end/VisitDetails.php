@@ -6,6 +6,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/icon.png"/>
     <link rel="stylesheet" href="../css/style.css" type="text/css"/>
 </head>
+<style>
+    th{
+        font-size: 16px;
+    }
+</style>
 <body>
 <!-- wrapper -->
 <div id="wrapper">
@@ -25,6 +30,9 @@
 
 
                     <div class = "visitDetails" align="center" >
+                        <p style="font-size:24px;" align="left">Visit Details: </p>
+                        <br>
+                        <br>
                         <table width="850" ; border="0";  align="center" ; cellpadding="0";>
 
                             <tr>
@@ -42,6 +50,27 @@
                                 <td>Visita matrimoniala</td>
                                 <td>observatii</td>
                                 <td>sadada</td>
+
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <p style="font-size:24px;" align="left">Visitors Details: </p>
+                        <table width="850" ; border="0";  align="center" ; cellpadding="0";>
+
+                            <tr>
+                                <th align="left">CNP</th>
+                                <th align="left">First Name</th>
+                                <th align="left">Last Name</th>
+                                <th align="left">Middle Name</th>
+                            </tr>
+                            <br>
+                            <br>
+                            <tr>
+                                <td>13145131</td>
+                                <td>nume</td>
+                                <td>prenume</td>
+                                <td>mijloc_nume</td>
 
                             </tr>
                         </table>
