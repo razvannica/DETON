@@ -26,18 +26,32 @@
                         <div class="post-inner">
                             <div class="post-cnt">
                                 <form action="AddVisits.php" method="post">
-                                    <h3 style="color: #1cfe10">Edit Visit</h3>
                                     <table style="width:100%">
-                                        <tr><td>New date of visit: </td><td>
+                                        <tr><td>Prisoner ID: </td><td>
+                                                <input type="number" name="convict_id" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td colspan="2" style="height:10px"></td></tr>
+                                        <tr><td>Last Name: </td><td>
+                                                <input type="text" name="first_name" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td colspan="2" style="height:10px"></td></tr>
+                                        <tr><td>Middle Name: </td><td>
+                                                <input type="text" name="middle_name" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td colspan="2" style="height:10px"></td></tr>
+                                        <tr><td>First Name: </td><td>
+                                                <input type="text" name="first_name" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td colspan="2" style="height:10px"></td></tr>
+                                        <tr><td>Prison Name: </td><td>
+                                                <input type="text" name="prison_name" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td colspan="2" style="height:10px"></td></tr>
+                                        <tr><td>Date of visit: </td><td>
                                                 <input type="date" name="visit_date" style="width:250px; border:2px solid ;"/></td></tr>
                                         <tr><td colspan="2" style="height:10px"></td></tr>
-                                        <tr><td>New visit reason: </td><td>
+                                        <tr><td>Visit reason: </td><td>
                                                 <input type="text" name="visit_reason" style="width:250px; border:2px solid ;"/></td></tr>
                                         <tr><td colspan="2" style="height:10px"></td></tr>
-                                        <tr><td>New received objectes: </td><td>
-                                                <input type="text" name="exchange_data" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td>Received objects: </td><td>
+                                                <input type="text" name="exchage_data" style="width:250px; border:2px solid ;"/></td></tr>
                                         <tr><td colspan="2" style="height:10px"></td></tr>
-                                        <br><br>
+                                            <br><br>
                                         <tr><td colspan="2" align="center"><input type="submit" value="Submit" style="height:30px; width: 60px;"/></td></tr>
                                     </table>
                                 </form>
