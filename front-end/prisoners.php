@@ -25,6 +25,7 @@
 
 
                     <div class = "prisoner" align="center" >
+                        <p align="left"> <button type="button"><a href="AddPrisoner.php" >Add Prisoner</a> </button></p>
                         <table width="650" ; border="0";  align="center" ; cellpadding="0";>
 
                             <tr>
@@ -93,4 +94,4 @@
 </div>
 <!-- end of wrapper -->
 </body>
-</html
+</html>
