@@ -31,6 +31,12 @@
                                         <tr><td>New date of visit: </td><td>
                                                 <input type="date" name="visit_date" style="width:250px; border:2px solid ;"/></td></tr>
                                         <tr><td colspan="2" style="height:10px"></td></tr>
+                                        <tr><td>New visit reason: </td><td>
+                                                <input type="text" name="visit_reason" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td colspan="2" style="height:10px"></td></tr>
+                                        <tr><td>New received objectes: </td><td>
+                                                <input type="text" name="exchange_data" style="width:250px; border:2px solid ;"/></td></tr>
+                                        <tr><td colspan="2" style="height:10px"></td></tr>
                                         <br><br>
                                         <tr><td colspan="2" align="center"><input type="submit" value="Submit" style="height:30px; width: 60px;"/></td></tr>
                                     </table>
